@@ -60,7 +60,7 @@ class ALY_Seg_Hair:
         imp1 = open(cache_image, 'rb')
 
         segment_hair_request = SegmentHairAdvanceRequest()
-        segment_hair_request.urlobject = imp1
+        segment_hair_request.image_urlobject = imp1
 
         runtime = RuntimeOptions()
         try:

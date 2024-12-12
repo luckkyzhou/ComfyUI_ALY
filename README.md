@@ -12,7 +12,9 @@ https://vision.aliyun.com/imageseg
 
 2. 需要安装依赖：requirements.txt
 
-pip install -r requirements.txt
+/root/ComfyUI/bin/python -m pip install -r requirements.txt
+
+** 注意：这里的[/root/ComfyUI/bin/python]需要替换成你运行comfyui的python路径，否则会导致安装失败无法加载组件
 
 
 CXH 节点名称

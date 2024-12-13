@@ -1,7 +1,7 @@
 # from .mine_nodes import *
 from .ALY_Seg_Cloth import *
 from .ALY_Seg_Obj import * 
-from .ALY_Seg_head import *
+from .ALY_Seg_Head import *
 from .ALY_Seg_Skin import *
 from .ALY_Seg_Hair import *
 
@@ -10,7 +10,7 @@ from .ALY_Seg_Hair import *
 NODE_CLASS_MAPPINGS = {
     "ALY_Seg_Cloth":ALY_Seg_Cloth,
     "ALY_Seg_Obj":ALY_Seg_Obj,
-    "ALY_Seg_head":ALY_Seg_head,
+    "ALY_Seg_Head":ALY_Seg_Head,
     "ALY_Seg_Skin":ALY_Seg_Skin,
     "ALY_Seg_Hair":ALY_Seg_Hair
 }
@@ -19,7 +19,7 @@ NODE_CLASS_MAPPINGS = {
 NODE_DISPLAY_NAME_MAPPINGS = {
     "ALY_Seg_Cloth":"ALY_Seg_Cloth",
     "ALY_Seg_Obj":"ALY_Seg_Obj",
-    "ALY_Seg_head":"ALY_Seg_head",
+    "ALY_Seg_Head":"ALY_Seg_Head",
     "ALY_Seg_Skin" : "ALY_Seg_Skin",
     "ALY_Seg_Hair":"ALY_Seg_Hair"
 }

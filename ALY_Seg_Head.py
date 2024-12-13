@@ -27,7 +27,7 @@ custom_nodes_path = os.path.join(comfy_path, "custom_nodes")
 
 
 
-class ALY_Seg_head:
+class ALY_Seg_Head:
    
     def __init__(self):
         pass
